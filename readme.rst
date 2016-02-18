@@ -1,7 +1,19 @@
 ###################################
-Tutorial 5 Starter Webapp - Caboose
+ACIT 4850 Winter 2016 Lab 06 - Caboose
 ###################################
 
+* Yoseph Jo
+
+**************
+Assumptions:
+**************
+* Allman-style formatting
+* changelog to have newest timestamp first,
+* use date & time stamping of [YYYY/MM/DD HH:MM - comment]
+
+**************
+Description:
+**************
 This is the starter webapp for CodeIgniter Tutorial #5.
 
 Unlike an earlier version, this version is fully functional, just feature incomplete.
