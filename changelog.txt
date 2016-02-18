@@ -1,4 +1,5 @@
 # Project Changelog
 >Template: * YYYY-MM-DD HH:MM - Comment
 
+2016-02-18 12:53 - Hook is enable in the config file
 2016-02-18 12:30 - Initial ChangeLog
