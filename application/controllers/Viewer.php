@@ -58,6 +58,7 @@ class Viewer extends Application
 			$this->quotes->update($record);
 		}
 		$response = 'Thanks for Voting!';
+		echo json_encode($response);
 	}
 
 }
