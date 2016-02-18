@@ -1,0 +1,4 @@
+# Project Changelog
+>Template: * YYYY-MM-DD HH:MM - Comment
+
+2016-02-18 12:30 - Initial ChangeLog
