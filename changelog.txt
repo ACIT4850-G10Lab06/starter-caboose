@@ -1,5 +1,14 @@
 # Project Changelog
 >Template: * YYYY-MM-DD HH:MM - Comment
 
+2016-02-18 
+2016-02-18 
+2016-02-18 
+2016-02-18 
+2016-02-18 
+2016-02-18 13:04 - Step 2 is done
+2016-02-18 13:02 - Substituted parameters in template
+2016-02-18 13:00 - Set view parameters
+2016-02-18 12:57 - Autoloaded the caboose library
 2016-02-18 12:53 - Hook is enable in the config file
 2016-02-18 12:30 - Initial ChangeLog

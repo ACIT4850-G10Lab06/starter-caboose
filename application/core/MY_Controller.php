@@ -9,10 +9,11 @@
  * @copyright           2010-2013, James L. Parry
  * ------------------------------------------------------------------------
  */
-class Application extends CI_Controller {
+class Application extends CI_Controller
+{
 
-	protected $data = array();	  // parameters for view components
-	protected $id;				  // identifier for our content
+	protected $data = array();   // parameters for view components
+	protected $id;	  // identifier for our content
 
 	/**
 	 * Constructor.
@@ -23,7 +24,7 @@ class Application extends CI_Controller {
 	{
 		parent::__construct();
 		$this->data = array();
-		$this->data['title'] = 'Quotes CMS';	// our default title
+		$this->data['title'] = 'Quotes CMS'; // our default title
 		$this->errors = array();
 		$this->data['pageTitle'] = 'welcome';   // our default page
 	}
@@ -37,6 +38,10 @@ class Application extends CI_Controller {
 		$this->data['content'] = $this->parser->parse($this->data['pagebody'], $this->data, true);
 
 		// finally, build the browser page!
+		$this->data['caboose_styles'] = $this->caboose->styles();
+		$this->data['caboose_scripts'] = $this->caboose->scripts();
+		$this->data['caboose_trailings'] = $this->caboose->trailings();
+
 		$this->data['data'] = &$this->data;
 		$this->parser->parse('_template', $this->data);
 	}
