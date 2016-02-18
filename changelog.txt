@@ -1,11 +1,11 @@
 # Project Changelog
 >Template: * YYYY-MM-DD HH:MM - Comment
 
-2016-02-18 
-2016-02-18 
-2016-02-18 
-2016-02-18 
-2016-02-18 
+2016-02-18 14:21 - Step 3 - Lab 06 Completed
+2016-02-18 14:17 - Bug fixed - replaced hard coded css with the {caboose styles}
+2016-02-18 13:48 - Invoked Caboose library in the Controller
+2016-02-18 13:40 - Initialized the rating widget
+2016-02-18 13:35 - Integrated jRating to the pages
 2016-02-18 13:04 - Step 2 is done
 2016-02-18 13:02 - Substituted parameters in template
 2016-02-18 13:00 - Set view parameters

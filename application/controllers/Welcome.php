@@ -7,7 +7,8 @@
  *
  * ------------------------------------------------------------------------
  */
-class Welcome extends Application {
+class Welcome extends Application
+{
 
 	function __construct()
 	{
@@ -20,8 +21,14 @@ class Welcome extends Application {
 
 	function index()
 	{
-		$this->data['pagebody'] = 'justone';	// this is the view we want shown
+		$this->data['pagebody'] = 'justone'; // this is the view we want shown
 		$this->data = array_merge($this->data, (array) $this->quotes->last());
+		$this->caboose->needed('jrating', 'hollywood'); //invoking the rating widget from the Caboose library
+
+		$this->data['average'] = ($this->data['vote_count'] > 0) ?
+				($this->data['vote_total'] / $this->data['vote_count']) :
+				0;
+
 		$this->render();
 	}
 
